@@ -142,7 +142,7 @@
     color: #888;
 }
 
-@media (max-width:991px){
+@media (max-width:1200px){
     .footer_siteLink_bar {
         justify-content: center;
     }
