@@ -93,3 +93,20 @@ function prevSlide(button) {
     let prevIndex = (activeIndex - 1 + slides.length) % slides.length;
     slides[prevIndex].classList.add("active");
 }
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const videos = document.querySelectorAll(".project-video");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.play();  // Auto-play when visible
+            } else {
+                entry.target.pause(); // Pause when out of view
+            }
+        });
+    }, { threshold: 0.5 }); // Trigger when 50% of the video is visible
+
+    videos.forEach((video) => observer.observe(video));
+});
