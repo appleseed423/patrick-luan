@@ -74,3 +74,22 @@ document.addEventListener("DOMContentLoaded", function () {
     document.querySelector(".about-tab-item.is-active")?.click();
 });
 
+function nextSlide(button) {
+    let slider = button.parentElement;
+    let slides = slider.getElementsByClassName("slide");
+    let activeIndex = Array.from(slides).findIndex(slide => slide.classList.contains("active"));
+
+    slides[activeIndex].classList.remove("active");
+    let nextIndex = (activeIndex + 1) % slides.length;
+    slides[nextIndex].classList.add("active");
+}
+
+function prevSlide(button) {
+    let slider = button.parentElement;
+    let slides = slider.getElementsByClassName("slide");
+    let activeIndex = Array.from(slides).findIndex(slide => slide.classList.contains("active"));
+
+    slides[activeIndex].classList.remove("active");
+    let prevIndex = (activeIndex - 1 + slides.length) % slides.length;
+    slides[prevIndex].classList.add("active");
+}

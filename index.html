@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com/">
   <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./src/swiper@11.2.4/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./src/css/portfolio.css" />
   <title>Patrick Luan</title>
 <script type="module" crossorigin src="assets/index.e24c2350.js"></script>
   <link rel="stylesheet" href="assets/index.3d890c5a.css">
@@ -436,104 +437,164 @@
               <h5 class="common--header--title">Portfolio</h5>
             </div>
           </div>
-          <div class="portfolio-menu">
-            <ul class="tab-list">
-              <li data-filter="*" class="tab-item is-active">All</li>
-              <li data-filter=".uiux" class="tab-item">Front End</li>
-              <li data-filter=".branding" class="tab-item">Full Stack</li>
-              <li data-filter=".graphic" class="tab-item">AI & LLM</li>
-            </ul>
+        </div>
+      </div>
+      <div class="container">
+        <div class="portfolio-container">
+          <div class="project-card">
+              <div class="image-slider">
+                  <img src="./assets/portfolio/1-1.jpg" class="slide active" alt="Project Screenshot">
+                  <img src="./assets/portfolio/1-2.jpg" class="slide" alt="Project Screenshot">
+                  <img src="./assets/portfolio/1-3.jpg" class="slide" alt="Project Screenshot">
+                  <img src="./assets/portfolio/1-4.jpg" class="slide" alt="Project Screenshot">
+                  <button class="prev" onclick="prevSlide(this)">&#10094;</button>
+                  <button class="next" onclick="nextSlide(this)">&#10095;</button>
+              </div>
+              <div class="project-content">
+                  <h3 class="project-title">Project Name</h3>
+                  <p class="project-description">
+                      A brief description of the project goes here. Explain what it does, technologies used, and its purpose.
+                  </p>
+                  <h4 class="project-role">My Role</h4>
+                  <p class="role-description">Frontend Developer - Built UI components and integrated APIs.</p>
+                  <h4 class="project-skills">Skills Used</h4>
+                  <div class="skills-list">
+                      <span class="skill-box">React.js</span>
+                      <span class="skill-box">Node.js</span>
+                      <span class="skill-box">MongoDB</span>
+                      <span class="skill-box">AWS</span>
+                  </div>
+                  <div class="project-links">
+                    <a href="#" class="project-btn">
+                        <span class="arrow-icon">&#8599;</span>
+                    </a>
+                  </div>
+              </div>
+          </div>
+          <div class="project-card">
+            <div class="image-slider">
+                <img src="./assets/portfolio/2-1.jpg" class="slide active" alt="Project Screenshot">
+                <img src="./assets/portfolio/2-2.jpg" class="slide" alt="Project Screenshot">
+                <img src="./assets/portfolio/2-3.jpg" class="slide" alt="Project Screenshot">
+                <img src="./assets/portfolio/2-4.jpg" class="slide" alt="Project Screenshot">
+                <img src="./assets/portfolio/2-5.jpg" class="slide" alt="Project Screenshot">
+                <button class="prev" onclick="prevSlide(this)">&#10094;</button>
+                <button class="next" onclick="nextSlide(this)">&#10095;</button>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Project Name</h3>
+                <p class="project-description">
+                    A brief description of the project goes here. Explain what it does, technologies used, and its purpose.
+                </p>
+                <h4 class="project-role">My Role</h4>
+                <p class="role-description">Frontend Developer - Built UI components and integrated APIs.</p>
+                <h4 class="project-skills">Skills Used</h4>
+                <div class="skills-list">
+                    <span class="skill-box">React.js</span>
+                    <span class="skill-box">Node.js</span>
+                    <span class="skill-box">MongoDB</span>
+                    <span class="skill-box">AWS</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-btn">
+                      <span class="arrow-icon">&#8599;</span>
+                  </a>
+                </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="image-slider">
+                <img src="./assets/portfolio/3-1.jpg" class="slide active" alt="Project Screenshot">
+                <img src="./assets/portfolio/3-2.jpg" class="slide" alt="Project Screenshot">
+                <img src="./assets/portfolio/3-3.jpg" class="slide" alt="Project Screenshot">
+                <img src="./assets/portfolio/3-4.jpg" class="slide" alt="Project Screenshot">
+                <button class="prev" onclick="prevSlide(this)">&#10094;</button>
+                <button class="next" onclick="nextSlide(this)">&#10095;</button>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Project Name</h3>
+                <p class="project-description">
+                    A brief description of the project goes here. Explain what it does, technologies used, and its purpose.
+                </p>
+                <h4 class="project-role">My Role</h4>
+                <p class="role-description">Frontend Developer - Built UI components and integrated APIs.</p>
+                <h4 class="project-skills">Skills Used</h4>
+                <div class="skills-list">
+                    <span class="skill-box">React.js</span>
+                    <span class="skill-box">Node.js</span>
+                    <span class="skill-box">MongoDB</span>
+                    <span class="skill-box">AWS</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-btn">
+                      <span class="arrow-icon">&#8599;</span>
+                  </a>
+                </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="image-slider">
+                <img src="./assets/portfolio/4-1.jpg" class="slide active" alt="Project Screenshot">
+                <img src="./assets/portfolio/4-2.jpg" class="slide" alt="Project Screenshot">
+                <img src="./assets/portfolio/4-3.jpg" class="slide" alt="Project Screenshot">
+                <img src="./assets/portfolio/4-4.jpg" class="slide" alt="Project Screenshot">
+                <button class="prev" onclick="prevSlide(this)">&#10094;</button>
+                <button class="next" onclick="nextSlide(this)">&#10095;</button>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Project Name</h3>
+                <p class="project-description">
+                    A brief description of the project goes here. Explain what it does, technologies used, and its purpose.
+                </p>
+                <h4 class="project-role">My Role</h4>
+                <p class="role-description">Frontend Developer - Built UI components and integrated APIs.</p>
+                <h4 class="project-skills">Skills Used</h4>
+                <div class="skills-list">
+                    <span class="skill-box">React.js</span>
+                    <span class="skill-box">Node.js</span>
+                    <span class="skill-box">MongoDB</span>
+                    <span class="skill-box">AWS</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-btn">
+                      <span class="arrow-icon">&#8599;</span>
+                  </a>
+                </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="image-slider">
+                <img src="./assets/portfolio/5-1.jpg" class="slide active" alt="Project Screenshot">
+                <img src="./assets/portfolio/5-2.jpg" class="slide" alt="Project Screenshot">
+                <img src="./assets/portfolio/5-3.jpg" class="slide" alt="Project Screenshot">
+                <img src="./assets/portfolio/5-4.jpg" class="slide" alt="Project Screenshot">
+                <img src="./assets/portfolio/5-5.jpg" class="slide" alt="Project Screenshot">
+                <button class="prev" onclick="prevSlide(this)">&#10094;</button>
+                <button class="next" onclick="nextSlide(this)">&#10095;</button>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Project Name</h3>
+                <p class="project-description">
+                    A brief description of the project goes here. Explain what it does, technologies used, and its purpose.
+                </p>
+                <h4 class="project-role">My Role</h4>
+                <p class="role-description">Frontend Developer - Built UI components and integrated APIs.</p>
+                <h4 class="project-skills">Skills Used</h4>
+                <div class="skills-list">
+                    <span class="skill-box">React.js</span>
+                    <span class="skill-box">Node.js</span>
+                    <span class="skill-box">MongoDB</span>
+                    <span class="skill-box">AWS</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-btn">
+                      <span class="arrow-icon">&#8599;</span>
+                  </a>
+                </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="row all-items-portfolio justify-content-center">
-        <div class="col-lg-4  col-xl-3 col-md-6 item-portfolio uiux">
-          <div class="card">
-            <img src="assets/portfolio-item-2.0a4d12cc.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <a href="#">UI & UX Designer trend in 2021</a>
-              <div class="card-body-footer">
-                <span>12th December, 2020</span><span>By Admin</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4  col-xl-3 col-md-6 item-portfolio graphic">
-          <div class="card">
-            <img src="assets/portfolio-item.a480b996.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <a href="#">UI & UX Designer trend in 2021</a>
-              <div class="card-body-footer">
-                <span>12th December, 2020</span><span>By Admin</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4  col-xl-3 col-md-6 item-portfolio branding uiux">
-          <div class="card">
-            <img src="assets/portfolio-item.a480b996.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <a href="#">UI & UX Designer trend in 2021</a>
-              <div class="card-body-footer">
-                <span>12th December, 2020</span><span>By Admin</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4  col-xl-3 col-md-6 item-portfolio graphic">
-          <div class="card">
-            <img src="assets/portfolio-item.a480b996.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <a href="#">UI & UX Designer trend in 2021</a>
-              <div class="card-body-footer">
-                <span>12th December, 2020</span><span>By Admin</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4  col-xl-3 col-md-6 item-portfolio uiux branding">
-          <div class="card">
-            <img src="assets/blog-item.833fd5b3.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <a href="#">UI & UX Designer trend in 2021</a>
-              <div class="card-body-footer">
-                <span>12th December, 2020</span><span>By Admin</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4  col-xl-3 col-md-6 item-portfolio branding uiux">
-          <div class="card">
-            <img src="assets/portfolio-item.a480b996.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <a href="#">UI & UX Designer trend in 2021</a>
-              <div class="card-body-footer">
-                <span>12th December, 2020</span><span>By Admin</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4  col-xl-3 col-md-6 item-portfolio  graphic">
-          <div class="card">
-            <img src="assets/blog-item.833fd5b3.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <a href="#">UI & UX Designer trend in 2021</a>
-              <div class="card-body-footer">
-                <span>12th December, 2020</span><span>By Admin</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4  col-xl-3 col-md-6 item-portfolio graphic">
-          <div class="card">
-            <img src="assets/portfolio-item.a480b996.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <a href="#">UI & UX Designer trend in 2021</a>
-              <div class="card-body-footer">
-                <span>12th December, 2020</span><span>By Admin</span>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -734,9 +795,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
-  <!-- <script src="src/js/jquery.min.html"></script> -->
   <script src="./src/swiper@11.2.4/swiper-bundle.min.js"></script>
-  <!-- <script src="src/js/isotope.pkgd.min.html"></script> -->
   <script src="src/js/custom.js"></script>
    <!-- Custom  js-->
   
