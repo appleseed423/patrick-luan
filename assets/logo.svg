@@ -1,0 +1,14 @@
+<svg width="200" height="50" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#000" x="-3.18905" fill="#29d882" stroke-width="0" y="-22.90439" width="53.98187" height="83.90437" id="svg_2"/>
+  <text fill="#ffffff" stroke-width="0" x="68.33926" y="445.11679" id="svg_1" font-size="232" font-family="'Asset'" text-anchor="start" xml:space="preserve" font-weight="normal" font-style="normal" stroke="#000" transform="matrix(0.225895 0 0 0.235982 -6.64441 -61.9734)">P.</text>
+  <text fill="#000000" stroke-width="0" x="-1543.28215" y="161.73533" id="svg_4" font-size="232" font-family="monospace" text-anchor="start" xml:space="preserve" stroke="#000" transform="matrix(0.152511 0 0 0.157201 293.158 11.6863)" font-weight="bold" font-style="normal">Patrick</text>
+  <ellipse stroke="#000" fill="#29d882" stroke-width="0" cx="145.40985" cy="14.61703" id="svg_16" rx="3.22755" ry="3.22755"/>
+  <path fill="#00c800" stroke="#000" stroke-width="0" opacity="NaN" d="m353,389" id="svg_19"/>
+  <path fill="#ffffff" stroke="#000" stroke-width="0" opacity="NaN" d="m310,382" id="svg_23"/>
+  <path fill="#ffffff" stroke="#000" stroke-width="0" d="m415,454c8,42 -25,31 26,40c51,9 11,23 69,-10c58,-33 24,-84 -32,-68c-56,16 -71,-4 -63,38z" id="svg_25"/>
+  <ellipse fill="#ffffff" stroke="#000" stroke-width="0" cx="346" cy="425.5" id="svg_27" rx="13" ry="12.5"/>
+ </g>
+
+</svg>

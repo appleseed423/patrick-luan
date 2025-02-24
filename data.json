@@ -1,0 +1,69 @@
+[
+    {
+        "title": "umusicstore",
+        "description": "shopping",
+        "skills": [
+            "Next.js", "React.js", "ecommerce"
+        ],
+        "image": [
+
+        ],
+        "url": "https://www.umusicstore.co.id"
+    },
+    {
+        "title": "luminous labs",
+        "description": "Book a call",
+        "skills": [
+            "Next.js", "React.js"
+        ],
+        "image": [
+            
+        ],
+        "url": "https://www.luminouslabs.health"
+    },
+    {
+        "title": "Nea Placut",
+        "description": "service",
+        "skills": [
+            "Next.js", "React.js"
+        ],
+        "image": [
+            
+        ],
+        "url": "https://www.neaplacut.ro"
+    },
+    {
+        "title": "EDIT SUITS CO",
+        "description": "service",
+        "skills": [
+            "Next.js", "React.js"
+        ],
+        "image": [
+            
+        ],
+        "url": "https://www.editsuits.com"
+    },
+    {
+        "title": "SKYLLER",
+        "description": "service",
+        "skills": [
+            "Next.js", "React.js"
+        ],
+        "image": [
+            
+        ],
+        "url": "https://www.skyller.co/"
+    },
+    {
+        "title": "HPS TRADE CO",
+        "description": "service",
+        "skills": [
+            "Next.js", "React.js"
+        ],
+        "image": [
+            
+        ],
+        "url": "https://www.hps-trade.co.th/"
+    }
+]
+]
