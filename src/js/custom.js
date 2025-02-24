@@ -48,3 +48,29 @@ document.getElementById("contact_form").addEventListener("submit", function(even
         alert("Failed!");
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const tabs = document.querySelectorAll(".about-tab-item");
+    const tabContents = document.querySelectorAll(".about--right > div[id]");
+
+    tabs.forEach(tab => {
+        tab.addEventListener("click", function () {
+            // Remove active class from all tabs
+            tabs.forEach(t => t.classList.remove("is-active"));
+            this.classList.add("is-active");
+
+            // Hide all tab contents
+            tabContents.forEach(content => content.style.display = "none");
+
+            // Show the selected tab content
+            const selectedContent = document.getElementById("c_" + this.id);
+            if (selectedContent) {
+                selectedContent.style.display = "block";
+            }
+        });
+    });
+
+    // Initialize by showing only the active tab content
+    document.querySelector(".about-tab-item.is-active")?.click();
+});
+
