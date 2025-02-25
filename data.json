@@ -28,7 +28,6 @@
             "Next.js", "React.js"
         ],
         "image": [
-            
         ],
         "url": "https://www.neaplacut.ro"
     },
@@ -49,8 +48,11 @@
         "skills": [
             "Next.js", "React.js"
         ],
-        "image": [
-            
+        "image": [Frontend Frameworks: React.js, Vue.js, Next.js
+        Styling & UI: Tailwind CSS, Bootstrap, SCSS
+        State Management: Redux, Zustand, Vuex
+        Performance Optimization: Lazy Loading, Code Splitting, SSR
+        Testing & CI/CD: Jest, Cypress, GitHub Action
         ],
         "url": "https://www.skyller.co/"
     },
